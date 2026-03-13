@@ -1,0 +1,22 @@
+# ENV
+.env
+.env.*
+!.env.example
+
+# Django
+server/__pycache__/
+server/**/__pycache__/
+**/*.pyc
+server/db.sqlite3
+server/media/
+server/staticfiles/
+
+# Expo / React Native
+client/node_modules/
+client/.expo/
+client/dist/
+client/build/
+
+# OS
+.DS_Store
+Thumbs.db
